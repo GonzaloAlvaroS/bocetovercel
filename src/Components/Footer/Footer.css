@@ -15,15 +15,30 @@
 
 /* ----- media query ---------- */
 
-@media (max-width: 600px){
+@media (max-width: 850px){
     .footer{
-        display: block;
-        text-align: center;
+        margin-top: 160px;
     }
     .footer ul li{
         margin: 10px;
     }
     .footer ul{
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .footer{
+        margin-top: 548px;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: -5px;
+        margin-left: 80px;
+    }
+    .footer p{
+        margin-top: -20px;
     }
 }

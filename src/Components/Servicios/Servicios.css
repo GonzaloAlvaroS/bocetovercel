@@ -7,7 +7,6 @@
     font-size: xx-large;
     color: #000F38;
     font-weight: 600;
-    font-size: xx-large;
 }
 .titulos h2{
     margin-bottom: 30px;
@@ -40,8 +39,7 @@
     height: 100%; /* Asegura que cubra toda la imagen */
     text-align: center;
     border-radius: 10px;
-    padding: 10px;
-    transform: translateY(280px);
+    margin: 290px 0px;
     font-size: xx-large;
 }
 .serviciosbtn{
@@ -50,12 +48,35 @@
 
 /* ----- media query ---------- */
 
-@media (max-width: 800px){
+@media (max-width: 850px){
     .gallery{
         flex-wrap: wrap;
+        display: block;
     }
     .gallery img{
-        width: 48%;
+        width: 70%;
         margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    .servicios{
+        margin: 38px 47px;
+    }
+    .gallery{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery img{
+        width: 120%;
+        margin-bottom: 25px;
+    }
+    .servicio1{
+        margin-right: 70px;
+    }
+    .servicio1texto{
+        margin-left: 31px;
     }
 }

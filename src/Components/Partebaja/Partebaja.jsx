@@ -25,20 +25,23 @@ const Partebaja = () => {
      <div className="granlineaazul">
      <p className="titulolinea"><b>TEXTO DE EJEMPLO / NOMBRE DE LA EMPRESA</b></p>
      </div>
-      <div className='logoyredes'>
+     <div className='partebajainfotodo'>
+      <div className='infobaja infobajaxd'>
        <img src={logo} alt="" />
+       <div className='logoboton'>
        <button onClick={handleButtonClick} className='btnredes'><img src={instagram} alt="" /></button>
        <button onClick={handleButtonClick2} className='btnredes2'><img src={facebook} alt="" /></button>
        <button onClick={handleButtonClick3} className='btnredes3'><img src={youtube} alt="" /></button>
       </div>
-      <div className='infobaja1'>
+      </div>
+      <div className='infobaja infobajalogo'>
        <h4>Informacion de contacto</h4>
        <div className="lineaazul1"></div>
        <p className='infodireccion'><b>Direccion:</b> 303 Fifth Ave., Suite 1005 New York, NY 10016</p>
        <p className='infotelefono'><b>Telefono:</b> 1.917.705.6155</p>
        <p className='infoemail'><b>Email:</b> office@SRPsychologicalservices.com</p>
       </div>
-      <div className='infobaja2'>
+      <div className='infobaja infobaja1'>
        <h4>Enlaces rapidos</h4>
        <div className="lineaazul2"></div>
        <p className='infodireccion'><b>● Sobre nosotros</b></p>
@@ -47,12 +50,13 @@ const Partebaja = () => {
        <p className='infomedia'><b>● Media</b></p>
        <p className='infocontacto'><b>● Contactenos</b></p>
       </div>
-      <div className='infobaja3'>
+      <div className='infobaja infobaja2'>
        <h4>Horarios de atención</h4>
        <div className="lineaazul3"></div>
        <p className='infodireccion'><b>Lunes a Viernes:</b> 8:00am – 9:00pm</p>
        <p className='infotelefono'><b>Sabado:</b> 8:00am – 6:00pm</p>
        <p className='infoemail'><b>Domingo:</b> 9:00am - 6:00pm</p>
+      </div>
       </div>
     </div>
   )
