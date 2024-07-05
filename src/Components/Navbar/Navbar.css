@@ -78,3 +78,8 @@ nav ul li{
     right: -200px;
 }
 }
+@media (max-width: 414px){
+    .logo{
+        width: 170px;
+    }
+}
