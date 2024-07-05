@@ -64,3 +64,5 @@ const Partebaja = () => {
 
 export default Partebaja
 
+
+

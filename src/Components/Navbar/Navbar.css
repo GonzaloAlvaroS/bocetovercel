@@ -31,12 +31,22 @@ nav ul li{
 
 /* ----- media query ---------- */
 
-@media (max-width: 1000px){
+@media (max-width: 1280px){
+    .logo{
+        width: 225px;
+    }
+    nav ul li{
+        font-size: 20px;
+        margin: 10px 15px;
+    }
+}
+@media (max-width: 1069px){
     .logo{
         width: 140px;
     }
     nav ul li{
         margin: 10px 15px;
+        font-size: 16px;
     }
 }
 @media (max-width: 850px){

@@ -5,7 +5,7 @@
     justify-content: space-between;
     border-top: 1px solid #797979;
     padding: 15px 0;
-    width: 87.3%;
+    width: 90%;
 }
 .footer ul li{
     list-style: none;
@@ -15,30 +15,22 @@
 
 /* ----- media query ---------- */
 
-@media (max-width: 850px){
+@media (max-width: 1024px){
     .footer{
         margin-top: 160px;
+    }
+}
+@media (max-width: 414px){
+    .footer{
+        display: block;
+        text-align: center;
+        margin-top: 550px;
     }
     .footer ul li{
         margin: 10px;
     }
     .footer ul{
         margin-top: 10px;
-    }
-}
 
-@media (max-width: 500px){
-    .footer{
-        margin-top: 548px;
-    }
-    .footer ul li{
-        margin: 10px;
-    }
-    .footer ul{
-        margin-top: -5px;
-        margin-left: 80px;
-    }
-    .footer p{
-        margin-top: -20px;
     }
 }

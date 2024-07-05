@@ -106,6 +106,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+    transform: translateX(-10px);
 }
 .btnredes{
     background: #4b96dd;
@@ -154,7 +155,7 @@
 }
 
 /* ----- media query ---------- */
-@media (max-width: 850px){
+@media (max-width: 1024px){
     .infobaja{
         margin: 0;
         padding: 0;
@@ -165,6 +166,12 @@
     .infobajaxd{
         margin-left: 70px;
         margin-top: 25px;
+    }
+    .infobajalogo{
+        margin-right: 60px;
+    }
+    .infobaja2{
+        margin-right: 60px;
     }
     .logoboton{
         justify-content: space-between;
@@ -178,8 +185,49 @@
         margin-top: 40px;
     }
 }
+@media (max-width: 800px){
+    .infobaja{
+        margin: 0;
+        padding: 0;
+    }
+    .partebajainfotodo{
+        flex-wrap: wrap;
+    }
+    .infobajaxd{
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .infobaja1{
+        margin-left: -35px;
+    }
+    .logoboton{
+        justify-content: space-between;
+        display: inline-flex;
+        align-items: center;
+    }
+    .lineaazul3{
+        top: 273px;
+    }
+    .infobaja2{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 768px){
+    .infobajaxd{
+        margin-left: 10px;
+    }
+    .infobaja1{
+        margin-left: -42px;
+    }
+    .infobajalogo{
+        margin-right: 35px;
+    }
+    .infobaja2{
+        margin-right: 35px;
+    }
+}
 
-@media (max-width: 500px){
+@media (max-width: 414px){
     .granlineaazul{
         text-align: center;
     }
@@ -189,21 +237,24 @@
         padding: 0;
     }
     .infobajaxd{
-        margin-left: 45px;
+        margin-left: 90px;
         margin-top: 40px;
     }
     .infobajalogo{
+        margin-left: 35px;
         margin-top: 50px;
     }
     .infobaja1{
         margin-top: 50px;
-        transform: translateX(0px);
+        transform: translateX(77px);
     }
     .infobaja2{
+        margin-left: 35px;
         margin-top: 50px;
     }
     .logoboton{
         display: flex;
+        transform: translateX(-10px);
     }
     .infobaja{
         align-items: center;
@@ -212,18 +263,29 @@
     }
     .lineaazul1{
         top: 204px;
-        left: 57px;
-        width: 76.7%;
+        left: 40px;
+        width: 80%;
     }
     .lineaazul2{
         top: 25px;
         left: 42px;
         width: 74%;
-}
+    }
     .lineaazul3{
         top: 685px;
-        left: 57px;
+        left: 40px;
+        width: 80%;
+    }
+}
+@media (max-width: 390px){
+    .lineaazul1{
+        top: 204px;
+        left: 40px;
         width: 76.7%;
+    }
+    .lineaazul3{
+        top: 685px;
+        left: 40px;
+        width: 76.7%;
+    }
 }
-}
-
