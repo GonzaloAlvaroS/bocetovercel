@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import logo from "../../assets/logo.png"  //Para el logo de la pagina//
+import logo1 from "../../assets/logo1.png"  //Para el logo de la pagina//
 import menu_icon from "../../assets/menu-icon.png"
 import { Link } from 'react-scroll'
 
@@ -29,7 +29,7 @@ const toggleMenu = ()=>{
   return (
 // "sticky" Para que el Navbar cambie de apariencia cuando scrolleamos la pagina//
      <nav className={`container ${sticky? "dark-nav" : ""}`}>   
-      <img src={logo} alt="" className='logo' />
+      <img src={logo1} alt="" className='logo' />
       <ul className={mobileMenu?"":"hide-mobile-menu"}>
         <li><Link to="hero" smooth={true} offset={0} duration={500}>Principal</Link></li>
         <li><Link to="about" smooth={true} offset={-180} duration={500}>Sobre nosotros</Link></li>

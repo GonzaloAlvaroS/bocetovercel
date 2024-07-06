@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Partebaja.css"
-import logo from "../../assets/logo.png"
+import logo1 from "../../assets/logo1.png"
 import instagram from "../../assets/instagram.png"
 import facebook from "../../assets/facebook.png"
 import youtube from "../../assets/youtube.png"
@@ -27,7 +27,7 @@ const Partebaja = () => {
      </div>
      <div className='partebajainfotodo'>
       <div className='infobaja infobajaxd'>
-       <img src={logo} alt="" />
+       <img src={logo1} alt="" />
        <div className='logoboton'>
        <button onClick={handleButtonClick} className='btnredes'><img src={instagram} alt="" /></button>
        <button onClick={handleButtonClick2} className='btnredes2'><img src={facebook} alt="" /></button>
